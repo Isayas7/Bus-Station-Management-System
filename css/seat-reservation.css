@@ -1,0 +1,99 @@
+/* CSS styles for seat layout and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin-bottom: 4%;
+}
+.d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notify-root {
+  position: relative;
+}
+.notification {
+  display: inline-block;
+  position: absolute;
+  background-color: #ff0000;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  top: 6px;
+  left: 27px;
+}
+
+.profile {
+  width: 135%;
+  border-radius: 50%;
+}
+.nav-item-img {
+  width: 10%;
+}
+body {
+  background-color: #eef1ff !important;
+  /* background-image: linear-gradient(to right, #7ed56f, #28b485); */
+}
+.container-driver {
+  margin-left: 5%;
+  justify-content: center;
+}
+
+.heading {
+  padding: 10px;
+  color: #ffffff;
+  display: inline-block;
+  margin-left: 16%;
+  margin-bottom: 2%;
+  background-color: #20415b;
+  border-radius: 20px;
+}
+
+.div-btn {
+  margin-bottom: 2%;
+}
+
+.seat {
+  color: #ffffff;
+  width: 15%;
+  height: 100%;
+  margin: 1%;
+  text-align: center;
+  font-size: 16px;
+  background-color: #198754;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.seat-mergin {
+  margin-left: 18.5% !important;
+}
+
+.seat:hover {
+  background-color: #9f89b9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-danger,
+.btn-success {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-danger {
+  background-color: rgb(255, 0, 0);
+}
+
+p {
+  display: inline;
+}
+
+@media (max-width: 767px) {
+  .book-details {
+    margin-left: 4.6% !important;
+  }
+}

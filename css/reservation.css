@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins";
+}
+/* Constant Customize offcanvas */
+/* navvbar background and shadow effect */
+.nav-col {
+  background-color: #fff;
+  box-shadow: 0 6px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+}
+
+/* sidebar bachground and shadow effect */
+.sidebar-nav {
+  background-color: #405189;
+  width: var(--offcanvas-width) !important;
+  transition: all ease-in-out 0.6s;
+}
+/* Search background and hover */
+.btn-search {
+  background-color: #ff6e31;
+}
+.btn-search:hover {
+  background-color: rgb(0, 110, 255);
+}
+
+/* Making the dashboard responsive */
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+  }
+
+  .reduced-size {
+    width: 0px !important;
+  }
+  .main-on-menu {
+    margin-left: 0;
+  }
+}
+
+.main-container {
+  background-color: #eef1ff;
+}
+
+/* sidebar list hover effect */
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+/* sidebar link //station custom */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+.sidebar-link .right-icon {
+  display: inline-flex;
+}
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg);
+}
+.sidebar-link-item {
+  background-color: #405189;
+}
+.sidebar-link-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Cards  */
+.card {
+  height: 180px;
+}
+.card-title {
+  vertical-align: auto;
+}
+/* style of modal class */
+.btn-register {
+  background-color: #ff6e31;
+  color: #fff;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.btn-register:hover {
+  background-color: #405189;
+  color: #fff;
+}
+.btn-save {
+  background-color: #ff6e31;
+  color: #fff;
+}
+.btn-save:hover {
+  background-color: #405189;
+  color: #fff;
+}
+.modal-header {
+  background-color: #405189;
+  color: #fff;
+}
+/* card styling */
+.card-title {
+  align-items: flex-end !important;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition: all 0.2s;
+  border: none;
+}
+.card:hover {
+  transform: translatey(-0.2rem);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins";
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.ethio {
+  color: #fff !important;
+  font-weight: 900 !important;
+  text-align: center;
+}
+.colorNav {
+  color: #fff !important;
+  font-weight: 100;
+}
+
+.paragraph {
+  color: #fff !important;
+}
+
+.fs-8 {
+  font-size: 13px;
+}
+
+.navcolor {
+  background-color: #405189 !important;
+}
+
+.login-color,
+.login {
+  background-color: #ff6e31;
+  color: #fff;
+}
+
+.login-color:hover {
+  background-color: #cc5827;
+  color: #fff !important;
+}
+.login:hover {
+  background-color: #cc5827;
+  color: #fff;
+}
+
+.find-now {
+  padding: 17px !important;
+  background-color: #ff6e31;
+  color: #fff;
+  transition: all 0.4s;
+  border: none;
+}
+
+.find-now:hover {
+  background-color: #cc5827;
+  color: #fff;
+}
+.control {
+  outline: none;
+}
+
+.bord {
+  outline: none;
+}
+.input-1 {
+  outline: none;
+}
+.p-of-date {
+  padding: 15px !important;
+}
+.form-box {
+  margin-bottom: 300px;
+}
+
+@media (min-width: 768px) {
+  .form-box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: 50px;
+  }
+  .font-size {
+    font-size: 12px !important;
+  }
+  .font-size-in {
+    font-size: 10px !important;
+  }
+  .find-now,
+  input-1 {
+    border-radius: 0 4px 4px 0;
+  }
+  .input-1 {
+    border-radius: 4px 0 0 4px;
+  }
+  .bd-footer {
+    border-top: 0.01px solid #000;
+    width: 100%;
+  }
+}
+@media (min-width: 948px) {
+  .font-size {
+    font-size: 17px !important;
+  }
+  .font-size-in {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 768px) {
+  .bord {
+    border: none !important;
+    width: 100%;
+  }
+  .find-now {
+    border-radius: 4px;
+  }
+  .paragraph {
+    font-size: 16px !important;
+    /* line-height: 100px; */
+    /* word-spacing: 2px; */
+  }
+  .font-size {
+    font-size: 11px !important;
+  }
+  .ms-footer {
+    border-bottom: 1px solid #000;
+    width: 100%;
+  }
+  .card {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .margin-sm {
+    margin-bottom: 18px !important;
+  }
+  .border-set {
+    border: 1px solid #cc5827 !important;
+    border-radius: 4px;
+  }
+  .font-size {
+    font-size: 18px !important;
+    margin-bottom: 6px;
+    line-height: 1.5;
+  }
+  .font-size-in {
+    font-size: 16px;
+  }
+  .testmonial-in {
+    margin-left: 50px;
+  }
+}
+@media (min-width: 576px) {
+  .bord {
+    border-left: #cc5827 solid 2px !important;
+  }
+}
+@media (max-width: 500px) {
+  .paragraph {
+    font-size: 14px !important;
+  }
+}
+.image {
+  background-image: url(/assets/buse.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #000;
+  background-blend-mode: screen;
+  height: 450px;
+}
+
+.icon-style {
+  color: #f2ff00;
+}
+.line-height {
+  line-height: 1.2;
+}

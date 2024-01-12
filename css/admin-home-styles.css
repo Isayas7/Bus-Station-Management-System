@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins";
+}
+/* Constant Customize offcanvas */
+:root {
+  --offcanvas-width: 270px;
+  --topNavbarHeight: 100px;
+}
+/* navvbar background and shadow effect */
+.nav-col {
+  background-color: #fff;
+  box-shadow: 0 6px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+}
+
+/* sidebar bachground and shadow effect */
+.sidebar-nav {
+  background-color: #405189;
+  width: var(--offcanvas-width) !important;
+  transition: all ease-in-out 0.6s;
+}
+/* Search background and hover */
+.btn-search {
+  background-color: #ff6e31;
+}
+.btn-search:hover {
+  background-color: rgb(0, 110, 255);
+}
+
+/* Making the dashboard responsive */
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+  }
+  main {
+    margin-left: var(--offcanvas-width);
+    margin-top: var(--topNavbarHeight);
+  }
+  .sidebar-nav {
+    transform: none !important;
+    visibility: visible !important;
+  }
+  .nav-col {
+    margin-left: var(--offcanvas-width);
+    transition: all ease-in-out 0.6s;
+  }
+  .reduced-size {
+    width: 0px !important;
+  }
+  .main-on-menu {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-menu {
+    display: none;
+  }
+}
+
+.main-container {
+  background-color: #eef1ff;
+  margin-top: var(--topNavbarHeight);
+  transition: all ease-in-out 0.6s;
+}
+
+/* sidebar list hover effect */
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+/* sidebar link //station custom */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+.sidebar-link .right-icon {
+  display: inline-flex;
+}
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg);
+}
+.sidebar-link-item {
+  background-color: #405189;
+}
+.sidebar-link-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Cards  */
+.card {
+  height: 180px;
+}
+.card-title {
+  vertical-align: auto;
+}
+/* style of modal class */
+.btn-register {
+  background-color: #ff6e31;
+  color: #fff;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.btn-register:hover {
+  background-color: #405189;
+  color: #fff;
+}
+.btn-save {
+  background-color: #ff6e31;
+  color: #fff;
+}
+.btn-save:hover {
+  background-color: #405189;
+  color: #fff;
+}
+.modal-header {
+  background-color: #405189;
+  color: #fff;
+}
+/* card styling */
+.card-title {
+  align-items: flex-end !important;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition: all 0.2s;
+  border: none;
+}
+.card:hover {
+  transform: translatey(-0.2rem);
+}
+
+/* return top button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 22px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(228, 91, 91);
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: rgb(228, 91, 91);
+  opacity: 0.1;
+  transform: translatey(-1.9rem);
+  transition: all 1.8s;
+}
+/* blockin the line break when screen is small */
+.lists li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* setting icon rotation */
+@media (prefers-reduced-motion: no-preference) {
+  .setting {
+    animation: setting-spin infinite 6s linear;
+  }
+}
+@keyframes setting-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Table status styling  */
+.status {
+  background: rgba(26, 236, 7, 0.5);
+  color: green;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: 0.9;
+  border-radius: 5px;
+  border: none;
+}
+tr {
+  vertical-align: middle;
+}
+/* hide the main-conatiner of some part */
+.hidden {
+  display: none;
+}
+/* the offcanvas bar buttons */
+.nav-link-button {
+  border: none;
+  background-color: #405189;
+  color: white;
+  padding-right: 100%;
+}
+.nav-link-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.text-in-button {
+  vertical-align: center;
+  margin: 10px 0 0 10px;
+}

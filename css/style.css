@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins";
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.ethio {
+  color: #fff !important;
+  font-weight: 900 !important;
+  text-align: center;
+}
+.colorNav {
+  color: #fff !important;
+  font-weight: 100;
+}
+
+.paragraph {
+  color: #fff !important;
+}
+
+.fs-8 {
+  font-size: 13px;
+}
+
+.navcolor {
+  background-color: #405189 !important;
+}
+
+.login-color,
+.login {
+  background-color: #ff6e31;
+  color: #fff;
+}
+
+.login-color:hover {
+  background-color: #cc5827;
+  color: #fff !important;
+}
+.login:hover {
+  background-color: #cc5827;
+  color: #fff;
+}
+
+.find-now {
+  padding: 17px !important;
+  background-color: #ff6e31;
+  color: #fff;
+  transition: all 0.4s;
+  border: none;
+}
+
+.find-now:hover {
+  background-color: #cc5827;
+  color: #fff;
+}
+.control {
+  outline: none;
+}
+
+.bord {
+  outline: none;
+}
+.input-1 {
+  outline: none;
+}
+.p-of-date {
+  padding: 15px !important;
+}
+.form-box {
+  margin-bottom: 300px;
+}
+
+@media (min-width: 768px) {
+  .form-box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: 50px;
+  }
+  .font-size {
+    font-size: 12px !important;
+  }
+  .font-size-in {
+    font-size: 10px !important;
+  }
+  .find-now,
+  input-1 {
+    border-radius: 0 4px 4px 0;
+  }
+  .input-1 {
+    border-radius: 4px 0 0 4px;
+  }
+  .bd-footer {
+    border-top: 0.01px solid #000;
+    width: 100%;
+  }
+}
+@media (min-width: 948px) {
+  .font-size {
+    font-size: 17px !important;
+  }
+  .font-size-in {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 768px) {
+  .bord {
+    border: none !important;
+    width: 100%;
+  }
+  .find-now {
+    border-radius: 4px;
+  }
+  .paragraph {
+    font-size: 16px !important;
+    /* line-height: 100px; */
+    /* word-spacing: 2px; */
+  }
+  .font-size {
+    font-size: 11px !important;
+  }
+  .ms-footer {
+    border-bottom: 1px solid #000;
+    width: 100%;
+  }
+  .card {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .margin-sm {
+    margin-bottom: 18px !important;
+  }
+  .border-set {
+    border: 1px solid #cc5827 !important;
+    border-radius: 4px;
+  }
+  .font-size {
+    font-size: 18px !important;
+    margin-bottom: 6px;
+    line-height: 1.5;
+  }
+  .font-size-in {
+    font-size: 16px;
+  }
+  .testmonial-in {
+    margin-left: 50px;
+  }
+}
+@media (min-width: 576px) {
+  .bord {
+    border-left: #cc5827 solid 2px !important;
+  }
+}
+@media (max-width: 500px) {
+  .paragraph {
+    font-size: 14px !important;
+  }
+}
+.image {
+  background-image: url(/assets/buse.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #000;
+  background-blend-mode: screen;
+  height: 450px;
+}
+
+.icon-style {
+  color: #f2ff00;
+}
+.line-height {
+  line-height: 1.2;
+}
+
+@media (min-width: 1068px) {
+  .form-box {
+    width: 980px;
+  }
+}
+
+.card-body {
+  overflow: hidden;
+}
+
+.card-body img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.card-body img:hover {
+  transform: scale(1.1);
+}
+
+/* .card-body {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.card-body:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+} */
+/* #f8f9fa */
+.color-footer {
+  font-size: 0.875em !important;
+  color: #20415b !important;
+  font-weight: 400;
+}
+h6,
+p {
+  font-family: 'Poppins';
+  color: #000;
+  font-weight: 600;
+}
+h3 {
+  color: #ff6e31;
+}
+.ethio-footer {
+  font-weight: 600;
+}
+.color-footer:hover {
+  text-decoration: underline !important;
+}
+@media (min-width: 440px) {
+  .ms-footer {
+    margin-left: 18px;
+  }
+}
+
+/* .c.img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+} */
+/* .c-img-1 {
+  background-image: url(img/buse.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  height: 100vh;
+} */
+
+/* .c-img-2 {
+  background-image: url(img/travel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+} */
+
+/* .c-img-3 {
+  background-image: url(img/buse.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+} */
+
+/* .c-item {
+  height: 600px;
+} */
+/* 
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+  padding: 4.6rem;
+}
+
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+.plan-sing-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.feature-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+} */
